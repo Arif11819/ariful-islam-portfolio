@@ -4,7 +4,7 @@ import './Skills.css';
 const Skills = () => {
     return (
         <div>
-            <h1 className='skill-heading text-4xl font-sans font-bold'>My Skill Summary</h1>
+            <h1 className='skill-heading text-green-300 text-4xl font-sans font-bold'>My Skill Summary</h1>
             <div className='skill-container grid grid-cols-2 gap-5 px-10'>
                 <div>
                     <li className='py-8 font-sans text-2xl font-semibold text-amber-300 html'>HTML</li>

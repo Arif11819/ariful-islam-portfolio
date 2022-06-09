@@ -5,6 +5,8 @@ import Header from './Pages/Header/Header';
 import Home from './Pages/Home/Home';
 import Project from './Pages/Project';
 import Skills from './Pages/Skills/Skills';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
         <Route path='/skills' element={<Skills></Skills>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
       </Routes>
+      <ToastContainer />
     </div>
   );
 }

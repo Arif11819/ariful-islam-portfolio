@@ -12,8 +12,8 @@ const Projects = () => {
     }, []);
     return (
         <div>
-            <h1 className='text-5xl text-green-400 font-serif font-bold my-10'>My Projects</h1>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-16'>
+            <h1 className='text-5xl text-green-400 font-serif font-bold my-12'>My Projects</h1>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-16 pb-20'>
                 {
                     projects.map(project => <Project
                         key={project.id}

@@ -1,9 +1,20 @@
 import React from 'react';
 
-const Project = () => {
+const Project = ({ project, setDetails }) => {
+    const { name, description, picture } = project;
     return (
-        <div>
-            <h2>All my project here</h2>
+        <div className="card bg-slate-600">
+            <figure className="pt-10">
+                <img className='w-32 rounded-xl' src={picture} alt="" />
+            </figure>
+            <div className="card-body items-center text-center">
+                <h2 className="card-title text-green-300 font-serif font-bold">{name}</h2>
+                <div className="card-actions">
+                    <label onClick={() => setDetails(project)}
+                        for="detail-modal"
+                        class="btn btn-xs btn-info sm:btn-sm md:btn-md lg:btn-lg">Details</label>
+                </div>
+            </div>
         </div>
     );
 };

@@ -15,7 +15,7 @@ const Header = () => {
                         <li> <Link className='px-4 text-amber-500' to='/skills'>Skills</Link></li>
                     </ul>
                 </div>
-                <h2 className='text-amber-500 text-4xl font-mono font-bold pl-32'>ARIFUL</h2>
+                <h2 className='text-amber-500 text-4xl font-serif font-bold pl-32'>ARIFUL</h2>
             </div>
             <div class="navbar-center hidden lg:flex pl-52">
                 <ul class="menu menu-horizontal p-0">

@@ -12,7 +12,7 @@ const Project = ({ project, setDetails }) => {
                 <div className="card-actions">
                     <label onClick={() => setDetails(project)}
                         for="detail-modal"
-                        class="btn btn-xs btn-info sm:btn-sm md:btn-md lg:btn-lg">Details</label>
+                        className="btn btn-xs btn-info sm:btn-sm md:btn-md lg:btn-lg">Details</label>
                 </div>
             </div>
         </div>

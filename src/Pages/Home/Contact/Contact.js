@@ -17,10 +17,10 @@ const Contact = () => {
             <h1 className='my-6 text-5xl font-serif font-bold text-green-300'>Contact Me</h1>
             <div className='form-container mx-auto grid grid-cols-1'>
                 <form onSubmit={sendEmail} className='flex flex-col justify-center items-center py-12 gap-3'>
-                    <input name='name' required type="text" placeholder="Your Name" class="input input-bordered w-96" />
-                    <input name='email' required type="text" placeholder="Your Email" class="input input-bordered w-96" />
-                    <input name='subject' required type="text" placeholder="Subject" class="input input-bordered w-96" />
-                    <textarea name='message' type="text" placeholder="Your Message" class="input input-bordered w-96" />
+                    <input name='name' required type="text" placeholder="Your Name" className="input input-bordered w-96" />
+                    <input name='email' required type="text" placeholder="Your Email" className="input input-bordered w-96" />
+                    <input name='subject' required type="text" placeholder="Subject" className="input input-bordered w-96" />
+                    <textarea name='message' type="text" placeholder="Your Message" className="input input-bordered w-96" />
                     <input type="submit" className='btn btn-xs sm:btn-sm md:btn-md lg:btn-lg' value="Send Message" />
                 </form>
             </div>

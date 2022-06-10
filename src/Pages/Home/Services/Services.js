@@ -5,7 +5,7 @@ const Services = () => {
         <div className='mt-16'>
             <h1 className='text-5xl font-serif font-extrabold mb-12 text-black'>My <span className='text-green-300'>Services</span> </h1>
             <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-4 pl-16'>
-                <div class="card w-96  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 shadow-xl">
+                <div class="card w-96 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 shadow-xl">
                     <figure><img src="https://i.ibb.co/7QWpkJk/48fc724173a5.jpg" alt="Shoes" /></figure>
                     <div class="card-body">
                         <h2 class="card-title text-green-400 font-sans font-bold text-2xl">

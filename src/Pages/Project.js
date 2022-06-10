@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Project = ({ project, setDetails }) => {
-    const { name, description, picture } = project;
+    const { name, picture } = project;
     return (
         <div className="card bg-slate-600">
             <figure className="pt-10">

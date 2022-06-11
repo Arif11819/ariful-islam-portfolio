@@ -16,7 +16,7 @@ const Footer = () => {
                     </div>
                     <div className='flex gap-5 items-center py-2'>
                         <img className='w-12' src="https://i.ibb.co/w0G8RWn/gmail.png" alt="" />
-                        <p className='text-2xl text-green-300'>md.arifulislam11819@gmail.com</p>
+                        <p className='text-green-300'>md.arifulislam11819@gmail.com</p>
                     </div>
                     <div className='flex gap-5 items-center py-2'>
                         <img className='w-12' src="https://i.ibb.co/Y8rQ96x/placeholder.png" alt="" />

@@ -6,6 +6,7 @@ import Skills from './Pages/Skills/Skills';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Projects from './Pages/Projects';
+import Blogs from './Pages/Blogs/Blogs';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/project' element={<Projects></Projects>}></Route>
         <Route path='/skills' element={<Skills></Skills>}></Route>
+        <Route path='/blogs' element={<Blogs></Blogs>}></Route>
       </Routes>
       <ToastContainer />
     </div>
